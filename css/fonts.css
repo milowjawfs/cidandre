@@ -1,0 +1,18 @@
+
+
+/* @font-face */ 
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis/Dosis-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Dosis1';
+    src: url('../fonts/Dosis/Dosis-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Josefin';
+    src: url('../fonts/Josefin/JosefinSans-Bold.ttf');
+}

@@ -1,0 +1,323 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+/* start parallax scrolling */
+header {
+    /* The image used */
+    background:url(../img/banner/home-banner1.png);
+
+    /* Create the parallax scrolling effect */
+
+  }
+
+section:nth-child(3) {
+    /* The image used */
+    background:url(../img/banner/home-banner1.png);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  section:nth-child(6) {
+    /* The image used */
+    background:url(../img/banner/home-banner.png);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* end parallax scrolling */
+
+/* start navigation */ 
+header{
+    padding: 0 0 0 2rem;
+}
+
+.navbar-brand {
+    font: normal 500 30px/12px var(--josefin);
+    opacity: 0.7;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 20px/2px var(--dosis);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* end navigation */ 
+
+
+/* Portfolio Area */ 
+.project-area{
+    background-color: white;
+}
+
+.row{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    overflow: hidden;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--dosis);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--dosis);
+    opacity: 0.9;
+}
+
+.img-fluid{
+    overflow: hidden;
+}
+
+img.img-fluid{
+    transition: transform .5s ease;
+}
+
+.img-fluid:hover{
+    transform: scale(1.1);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/* End Portfolio Area */ 
+
+/* Services Area */ 
+#services{
+    padding-top: 0.5rem;
+}
+
+.site-main .services-area{
+    padding-top: 11rem;
+}
+
+.site-main .services-area .services-title h1{
+    padding: 1rem;
+    font-size: 40px;
+}
+
+.site-main .services-area .services-list{
+    padding-bottom: 14rem;
+}
+
+.site-main > .services-area .services{
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+/* End Services Area */ 
+
+/* Blog */ 
+
+#blog{
+    padding-top: 1rem;
+}
+
+.site-main .about-area{
+    height: 100vh;
+    padding-top: 15rem;
+    background-color: white;
+
+}
+
+.site-main .about-area .about-title h1{
+    font-size: 40px;
+}
+
+.site-main .about-area .client{
+    background: whitesmoke;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--dosis);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+/* End Blog */ 
+
+/* About Area */ 
+#about{
+    height: 100vh;
+    position: relative;
+}
+
+.site-title{
+    top: 15rem;
+}
+
+.banner-image{
+    padding-top: 10rem;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .site-title p{
+    padding-bottom: 2rem;
+    overflow-wrap: break-word;
+}
+
+#overflow{
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.site-buttons{
+    padding-bottom: 50rem;
+}
+
+
+/* End About Area */ 
+
+/* Contact me */ 
+
+#contact{
+    padding-top: 10rem;
+    background-color: white;
+}
+
+.site-main .subscribe-us-area .subscribe{
+    padding: 2rem 2rem 5rem 0;
+    margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+    font: normal 700 30px/ 30px var(--dosis);
+    color: black;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p{
+    color: black;
+    padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input{
+    width: 400px;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+    font: normal 500 17px/20px var(--dosis);
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+    color: black;
+}
+
+.btn-submit{
+    width: 10px;
+}
+
+/* End Contact me */ 
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg1.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--dosis);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+
+/* End Footer */ 
